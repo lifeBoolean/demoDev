@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>국토부 공간빅테이터</title>
+</head>
+<body>
+	
+	<div class="mainContainer">
+		<div class="mainRightItem">
+			<div class="articleWrap">
+				<h4>test list</h4>
+				<table class="tb_col"> 
+				<tr th:each="list : ${csvList}">
+					<td th:text="${list.num}"></td>
+					<td th:text="${list.val}"></td>
+				</tr> 
+				</table>
+				
+			</div>
+		</div>
+	</div>
+<script>
+
+	
+</script>
